@@ -1,0 +1,324 @@
+/* COMMON */
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+body {
+	font-size: 12px;
+}
+
+.inner {
+	position: relative;
+	width: 1100px;
+	margin: 0 auto;
+	height: 400px;
+}
+
+.baseBtn {
+	width: 185px;
+	height: 40px;
+	background-color: #333;
+	border: 1px solid #333;
+	cursor: pointer;
+	color: white;
+}
+
+.baseBtn:hover {
+	background-color: rgb(118, 118, 118);
+	border: 1px solid rgb(118, 118, 118);
+	color: white;
+}
+
+.whiteBtn {
+	display: inline-block;
+	padding: .5em 1em;
+	border: 1px solid #ccc;
+	border-color: #dbdbdb #d2d2d2 #b2b2b2 #d2d2d3;
+	cursor: pointer;
+	color: #464646;
+	border-radius: .2em;
+	vertical-align: middle;
+	font-size: 1em;
+	line-height: 1.25em;
+	height: 40px;
+}
+
+.whiteBtn:hover {
+	
+}
+
+
+
+
+/* LOGIN MAIN */
+
+.inner-box {
+	margin: 0 auto;
+	padding: 25px 20px;
+	position: absolute;
+	width: 440px;
+	left: 50%;
+	margin-left: -220px;
+	height: 800px;
+}
+
+.inputInfo {
+	border: 1px solid #ced4da;
+	box-sizing: border-box;
+	padding: 10px 12px;
+	width: 400px;
+	height: 40px;
+	font-size: 12px;
+	margin-top: 6px;
+}
+
+#loginBtn {
+	margin-top: 12px;
+	height: 55px;
+	width: 400px;
+	padding: 0;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 0;
+	background-color: #05141F;
+	color: #fff;
+	cursor: pointer;
+}
+
+#loginBtn:hover {
+	background-color: rgb(118, 118, 118);
+	border: 1px solid rgb(118, 118, 118);
+	color: white;
+}
+
+.findInfo-container {
+	color: #666;
+	font-size: 13px;
+	text-align: center;
+	font-family: Nanum Gothic, sans-serif, Roboto, Helvetica, Arial;
+	line-height: 1.9;
+	padding-top: 20px;
+	width: 400px;
+	position: absolute;
+	left: 50%;
+	margin-left: -220px;
+}
+
+/* JOIN PAGE */
+.container {
+	position: relative;  /* 사용시다깨짐 */
+}
+
+.inner .inner-inputBox {
+	width: 640px;
+	height: 270px;
+	padding: 24px;
+	position: absolute;
+	left: 50%;
+	margin-left: -320px;
+	top: 150px;
+}
+
+.inner .inner-inputBox .container span {
+	color: rgba(0, 0, 0, 0.87);
+	font-weight: 500;
+	line-height: 1.46429em;
+	font-size: 16px;
+	display: block;
+	padding-top: 10px;
+}
+
+.inner .title {
+	padding-top: 10px;
+	position: absolute;
+	width: 800px;
+	height: 100px;
+	left: 50%;
+	margin-left: -400px;
+	font-weight: bold;
+	color: #666;
+	font-size: 12px;
+	margin-top: 10px;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.inner .title h6 {
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.inner .sendConfirmEmail .process1 {
+	width: 562px;
+	height: 44px;
+	position: relative;
+	border-left: 1px solid #bdbdbd;
+	padding-left: 20px;
+}
+
+.inner .sendConfirmEmail .getEmail {
+	width: 345px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #ced4da;
+	padding: 10px 12px;
+	font-size: 12px;
+	position: absolute;
+}
+
+.inner .sendConfirmEmail .getEmailBtn {
+	position: absolute;
+	left: 365px;
+}
+
+.inner .sendConfirmEmail .refreshBtn {
+	position: absolute;
+	left: 560px;
+}
+
+.inner .confirmEmail .process2 {
+	width: 600px;
+	height: 44px;
+	position: relative;
+	border-left: 1px solid #bdbdbd;
+	padding-left: 20px;
+}
+
+.inner .confirmEmail .getConfirmNumber {
+	width: 250px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #ced4da;
+	padding: 10px 12px;
+	font-size: 12px;
+	position: absolute;
+}
+
+.inner .confirmEmail .comfirmBtn {
+	position: absolute;
+	left: 270px;
+}
+
+.inner .confirmEmail .refreshBtn2 {
+	position: absolute;
+	left: 465px;
+}
+
+.inner .userInfo .process3 {
+	position: relative;
+	padding-left: 20px;
+}
+
+.inner .userInfo .process3 .joinForm {
+	padding-bottom: 150px
+}
+.inner .userInfo .process3 .joinForm .invalid-info{
+	margin-top: 0;
+	color: red;
+	font-size: 13px;
+}
+
+.inner .userInfo .process3 input {
+	width: 185px;
+	height: 40px;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+#joinBtn, #goTologinBtn, #sendTempPwBtn {
+	position: absolute;
+	margin-top: 10px;
+}
+#joinBtn{
+	margin-top: 20px;
+}
+
+.process {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.process2, .process3 {
+	display: none;
+}
+
+.inner .userInfo .process3 span {
+	margin-top: 10px;
+}
+
+.inner .userInfo .process3 input {
+	height: 40px;
+	width: 540px;
+}
+#name-loc{
+	height: 40px;
+	width: 350px;
+}
+
+
+#mobile1 {
+	height: 40px;
+	width: 120px;
+}
+
+#mobile2 {
+	height: 40px;
+	width: 200px;
+}
+
+#mobile3 {
+	height: 40px;
+	width: 200px;
+}
+
+#postcode {
+	height: 40px;
+	width: 120px;
+}
+
+#addr1 {
+	margin-top: 10px;
+	height: 40px;
+	width: 540px;
+}
+
+#addr2 {
+	margin-top: 10px;
+	height: 40px;
+	width: 330px;
+}
+
+#addressBtn {
+	margin-left: 10px;
+	margin-bottom: 2px;
+}
+#timer{
+	display: inline;
+}
+
+
+/* 중복아이디 체크 페이지 */
+#nameCheck {
+	width: 250px;
+	height: 40px;
+	box-sizing: border-box;
+	border: 1px solid #ced4da;
+	padding: 10px 12px;
+	font-size: 12px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+#sameNameCheckBtn ,#btnuse{
+	position: absolute;
+	top: 20px;
+	left:280px;
+}
+#sameIdCheckBtn{
+	margin-left: 3px;
+}
+
