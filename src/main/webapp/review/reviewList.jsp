@@ -192,7 +192,7 @@ table.list {
 	</div>
 	
 	<!-- top btn -->
-	<div id="topBtn"">
+	<div id="topBtn">
 		<img src="images/icon_up_button.png" id="topBtnImg">
 	</div>
 </div>
